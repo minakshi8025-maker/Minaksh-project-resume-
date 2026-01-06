@@ -4,15 +4,12 @@ Front-End Developer fresher with knowledge of HTML, CSS, and basic JavaScript.
 Skilled in creating responsive layouts and beginner-level web projects.  
 Eager to learn, improve skills, and start a career in web development.
 
-
 ## 🛠️ Technologies Used
 
-- HTML 
-- CSS  
+- HTML5  
+- CSS3  
 - JavaScript (Basic)  
--  GitHub(basic)  
-
----
+- Git & GitHub  
 
 ## ✨ Features
 
@@ -20,9 +17,9 @@ Eager to learn, improve skills, and start a career in web development.
 - Well-structured sections  
 - Beginner-friendly code  
 - Hosted using GitHub  
-- Easy to update and customize
+- Easy to update and customize  
 
----
+
 
 ## 💻 Projects Highlighted
 
@@ -40,7 +37,6 @@ Eager to learn, improve skills, and start a career in web development.
 - Created and hosted resume project on GitHub  
 - Clean and structured resume sections  
 
----
 
 ## 🎓 Education
 
@@ -54,7 +50,6 @@ Eager to learn, improve skills, and start a career in web development.
 - **10th (2020–2021)**  
   Himachal Pradesh Board of School Education  
 
----
 
 ## 🏆 Certificates & Achievements
 
@@ -62,23 +57,20 @@ Eager to learn, improve skills, and start a career in web development.
 - 🥉 3rd Position – Punjab University Zonal Youth & Heritage Festival  
 - 📜 Domestic Data Entry Operator (NSQF Level-2)  
 
----
+
 
 ## 🌱 Experience
 
 **Fresher**  
 Actively learning front-end development and building projects to improve coding and design skills.
 
----
 
 ## 🌐 Languages
 
 - Hindi  
 - English  
 
----
-
-##📬 Contact
+## 📬 Contact
 
 - 📧 Email: minakshi8025@gmail.com  
 - 📱 Phone: 9779546620  
