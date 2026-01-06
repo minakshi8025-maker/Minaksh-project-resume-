@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>coffee order</title>
+<style>
+body{background-image:url("BOX_1.jpg");color:#ffd699;background-repeat:no-repeat;BACKGROUND-SIZE:100% 900px;font-size:25px;}
+#main{width:100%;height:100%;}
+#left{width:30%;height:100%;float:left;}
+#right{width:70%;height:100%;float:left;}
+</style>
+</head>
+<body>
+<div id="main"><center><h1 style="font-family:Comic Sans MS;font-size:50px;color:#b36b00;text-shadow:2px 4px 1px #ffd699">
+Coffee Ordering System</center></h1>
+<div id="left">
+<form>
+Customer Name:<input type="text" id="fname"><br><br>
+Customer Mobile:<input type="number" id="fmobile"><br><br>
+Order Date:<input type="date" id="fdate"><br><br>
+Order Time:<input type="time" id="ftime"><br><br>
+order Ref No:<input type="number" id="fref"><br><br>
+
+coffee:<select id="fcoffee" name="ncoffee">
+	<option value="cappuccino">cappuccino</option>
+	<option value="mocha">mocha</option>
+	<option value="Latte">Latte</option>
+	<option value="Hot Chocolate">Hot Chocolate</option>
+              <option value="Expresso">Expresso</option>
+</select><br><br>
+Extra:<select id="fextra" name="nextra">
+
+                    <option value="Carmel">Carmel</option>
+                    <option value="Vanilla">Vanilla</option>
+                      <option value="Hazelnut">Hazelnut</option>
+                    <option value="Extra Shot">Extrashot</option>                
+                        <option value="Decaf">Decaf</option>
+                        <option value="Normal">Normal</option>
+                                                           </select><br><br>
+  Size:<select id="fsize" name="nsize">                  
+                                                        <option value="Small">Small</option>
+                                                       <option value="Medium">Medium</option>  
+                                                      <option value="Large">Large</option>
+                      </select><br><br>
+   Milk:<select id="fmilk" name="nmilk">                  
+                                                        <option value="Regular">Regular</option>
+                                                       <option value="Trim">Trim</option>  
+                                                      <option value="Soy">Soy</option>
+                      </select><br><br>
+Sugar:<input type="text" id="fsugar"><br><br>
+Quantity:<input type="text" id="fqty"><br><br>
+<input type="button" id="total" value="Total" onclick="myOrder()"/>
+<input type="reset" id="Reset"/>
+</form>
+</div>
+<div id="right">
+<p>Name:<span id="cname"></span>
+<p>Mobile:<span id="cmobile"></span>
+
+<p>Date:<span id="cdate"></span>
+
+<p>Time:<span id="ctime"></span>
+
+<p>Ref No:<span id="cref"></span>
+<p>Coffee:<span id="ccoffee"></span>
+
+<p>Extra:<span id="cextra"></span>
+
+<p>Size:<span id="csize"></span>
+
+<p>Milk:<span id="cmilk"></span>
+<p>Sugar:<span id="csugar"></span>
+
+<p>Quanitity:<span id="cqty"></span>
+
+<p>Total:<span id="ctotal"></span>
+
+</div>
+</div>
+<script>
+function myOrder(){
+ var oname=document.getElementById("fname").value;
+ var omobile=document.getElementById("fmobile").value;
+ var odate=document.getElementById("fdate").value;
+ var otime=document.getElementById("ftime").value;
+ var oref=document.getElementById("fref").value;
+ var ocoffee=document.getElementById("fcoffee").value;
+ var oextra=document.getElementById("fextra").value;
+ var osize=document.getElementById("fsize").value;
+ var omilk=document.getElementById("fmilk").value;
+ var osugar=document.getElementById("fsugar").value;
+ var oqty=document.getElementById("fqty").value;
+
+
+document.getElementById("cname").innerHTML =oname;
+document.getElementById("cmobile").innerHTML =omobile;
+document.getElementById("cdate").innerHTML =odate;
+document.getElementById("ctime").innerHTML =otime;
+document.getElementById("cref").innerHTML =oref;
+document.getElementById("ccoffee").innerHTML =ocoffee;
+document.getElementById("cextra").innerHTML =oextra;
+document.getElementById("csize").innerHTML =osize;
+document.getElementById("cmilk").innerHTML =omilk;
+document.getElementById("csugar").innerHTML =osugar;
+document.getElementById("cqty").innerHTML =oqty;
+
+var ccoffee;
+switch(ocoffee){
+case "cappuccino":
+ccoffee=70;
+break;
+case "mocha":
+ccoffee=70;
+break;
+case "Latte":
+ccoffee=60;
+break;
+case "Hot Chocolate":
+ccoffee=85;
+break;
+case "Expresso":
+ccoffee=50;
+break; 
+default:
+alert("Select Your Favorite Coffee ");
+break;
+}
+var cextra;
+switch(oextra){
+case "Carmel":
+cextra=10;
+break;
+case "Vanilla":
+cextra=5;
+break;
+case "Hazelnut":
+cextra=15;
+break;
+case "Extra Shot":
+cextra=10;
+break;
+case "Decaf":
+cextra=15;
+break;
+case "Normal":
+cextra=0;
+break;
+default:
+alert("Are You Want Some Flavor?");
+break;
+}
+var csize;
+switch(osize){
+case "Small":
+csize=5;
+break;
+case "Medium":
+csize=10;
+break;
+case "Large":
+csize=15;
+break;
+default:
+alert("Select Glass Size");
+break;}
+
+var cmilk;
+switch(omilk){
+ case "Regular":
+cmilk=5;
+break;
+ case "Trim":
+cmilk=10;
+break;
+ case "Soy":
+cmilk=15;
+break;
+default:
+alert("Select Milk Flavor");
+break;
+}
+document.getElementById("ctotal").innerHTML =(+ccoffee + +cextra + +csize + +cmilk) * oqty;
+}
+</script>
+</body>
+</html>
