@@ -17,6 +17,11 @@ Eager to learn, improve skills, and start a career in web development.
 - Designed and developed a responsive e-commerce layout  
 - Built using **HTML & CSS**  
 - Focused on clean UI and user experience  
+<p align="left">
+  <a href="demo-of-picture.png">
+    <img src="demo-of-picture.png" width="400" alt="Amazon Clone Screenshot">
+  </a>
+</p>
 
 ### ☕ Coffee Ordering System
 - Web-based coffee ordering interface  
