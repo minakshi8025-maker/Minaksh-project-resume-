@@ -28,8 +28,8 @@ Eager to learn, improve skills, and start a career in web development.
 - Built using **HTML, CSS, and JavaScript (Basic)**  
 - Interactive UI for ordering flow
 - <p align="left">
-  <a href="Rename screenshot-of-project2.png to screenshot-of-project2nd.png">
-    <img src="Rename screenshot-of-project2.png to screenshot-of-project2nd.png" width="400" alt="Amazon Clone Screenshot">
+  <a href="screenshot-of-project2.png">
+    <img src="screenshot-of-project2.png" width="400" alt="Amazon Clone Screenshot">
   </a>
 </p>
 
