@@ -27,7 +27,7 @@ Eager to learn, improve skills, and start a career in web development.
 - Web-based coffee ordering interface  
 - Built using **HTML, CSS, and JavaScript (Basic)**  
 - Interactive UI for ordering flow
-- https://minakshi8025-maker.github.io/Minaksh-project-resume/index.html
+- https://minakshi8025-maker.github.io/Minaksh-project-resume-/
  
 
 ## 🎓 Education
