@@ -30,7 +30,7 @@ Eager to learn, improve skills, and start a career in web development.
 - <p align="left">
   <a href="screenshot-of-project2.png">
     <img src="screenshot-of-project2.png" width="400" alt="Amazon Clone Screenshot">
-  </a> </p>
+  </a> 
 
 
 ## 🎓 Education
