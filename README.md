@@ -9,7 +9,8 @@ Eager to learn, improve skills, and start a career in web development.
 - HTML 
 - CSS
 - JavaScript (Basic)  
-- GitHub(Basic) 
+- GitHub(Basic)
+- MYSQL
 
 ## 💻 Projects Highlighted
 
