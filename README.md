@@ -4,7 +4,7 @@ Front-End Developer fresher with knowledge of HTML, CSS, and basic JavaScript.
 Skilled in creating responsive layouts and beginner-level web projects.  
 Eager to learn, improve skills, and start a career in web development.
 
-## 🛠️ Technologies Used
+## 🛠️Skills
 
 - HTML 
 - CSS
