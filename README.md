@@ -69,6 +69,6 @@ Actively learning front-end development and building projects to improve coding 
 
 - 📧 Email: minakshi8025@gmail.com  
 - 📱 Phone: 9779546620  
-- 💼 LinkedIn: *Minakshi Vishva*  
+- 💼 LinkedIn: www.linkedin.com/in/minakshi-vishva-186653365 
 
 
