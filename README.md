@@ -47,7 +47,7 @@ Eager to learn, improve skills, and start a career in web development.
 
 
 ## 🏆 Certificates & Achievements
-
+-📜 IBM Certificate Course in HTML and CSS 
 - 🥇 1st Position – IT Club Tech Wizard Video Contest  
 - 🥉 3rd Position – Punjab University Zonal Youth & Heritage Festival  
 - 📜 Domestic Data Entry Operator (NSQF Level-2)  
